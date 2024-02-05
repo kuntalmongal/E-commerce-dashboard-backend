@@ -1,12 +1,15 @@
 const express = require("express");
 const cors = require("cors");
 require('./db/config');
+
 const User = require("./db/User");
 const Product = require("./db/Product")
-const Jwt = require('jsonwebtoken')
-const jwtKey = 'e-com';
+const Jwt = require('jsonwebtoken');
 
+const jwtKey = 'e-com';
 const app = express();
+
+
 
 
 app.use(express.json())
@@ -123,3 +126,4 @@ function verifyToken(req, resp, next) {
 
 
 app.listen(5000);  
+
