@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const pp="mongodb+srv://Kuntal:Kuntal123@atlascluster.rini6z6.mongodb.net/e-commerce?retryWrites=true&w=majority"
+const pp="mongodb+srv://kuntalmongal27:Kuntal123@e-commerce.qmzu9ny.mongodb.net/e-commerce?retryWrites=true&w=majority"
 
 mongoose.connect(pp,{
    
